@@ -47,12 +47,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-msg-flash.git"
+    "url": "git+https://github.com/eggjs/beck-msg-flash.git"
   },
   "bugs": {
     "url": "https://github.com/eggjs/egg/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-msg-flash#readme",
+  "homepage": "https://github.com/eggjs/beck-msg-flash#readme",
   "author": "",
   "license": "MIT"
 }
