@@ -1,4 +1,4 @@
-# egg-msg-flash
+# beck-msg-flash
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -7,18 +7,18 @@
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
 
-[npm-image]: https://img.shields.io/npm/v/egg-msg-flash.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/egg-msg-flash
-[travis-image]: https://img.shields.io/travis/eggjs/egg-msg-flash.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-msg-flash
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-msg-flash.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-msg-flash?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-msg-flash.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-msg-flash
-[snyk-image]: https://snyk.io/test/npm/egg-msg-flash/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/npm/egg-msg-flash
-[download-image]: https://img.shields.io/npm/dm/egg-msg-flash.svg?style=flat-square
-[download-url]: https://npmjs.org/package/egg-msg-flash
+[npm-image]: https://img.shields.io/npm/v/beck-msg-flash.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/beck-msg-flash
+[travis-image]: https://img.shields.io/travis/eggjs/beck-msg-flash.svg?style=flat-square
+[travis-url]: https://travis-ci.org/eggjs/beck-msg-flash
+[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/beck-msg-flash.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/eggjs/beck-msg-flash?branch=master
+[david-image]: https://img.shields.io/david/eggjs/beck-msg-flash.svg?style=flat-square
+[david-url]: https://david-dm.org/eggjs/beck-msg-flash
+[snyk-image]: https://snyk.io/test/npm/beck-msg-flash/badge.svg?style=flat-square
+[snyk-url]: https://snyk.io/test/npm/beck-msg-flash
+[download-image]: https://img.shields.io/npm/dm/beck-msg-flash.svg?style=flat-square
+[download-url]: https://npmjs.org/package/beck-msg-flash
 
 <!--
 Description here.
@@ -28,7 +28,7 @@ Description here.
 
 ### 依赖的 egg 版本
 
-egg-msg-flash 版本 | egg 1.x
+beck-msg-flash 版本 | egg 1.x
 --- | ---
 1.x | 😁
 0.x | ❌
@@ -49,7 +49,7 @@ egg-msg-flash 版本 | egg 1.x
 // config/plugin.js
 exports.msgFlash = {
   enable: true,
-  package: 'egg-msg-flash',
+  package: 'beck-msg-flash',
 };
 ```
 

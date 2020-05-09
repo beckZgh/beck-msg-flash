@@ -22,7 +22,7 @@ module.exports = ({ key }) => async (ctx, next) => {
   };
 
   [ 'success', 'error', 'info', 'warning' ].forEach(type => {
-    ctx['flash_' + type] = msg => (ctx.flash = { type, message: msg})
+    ctx['flash_' + type] = msg => (ctx.flash = { type, message: msg });
   });
 
   await next();

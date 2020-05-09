@@ -1,6 +1,6 @@
 {
   "name": "beck-msg-flash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "eggPlugin": {
     "name": "flash",
@@ -22,7 +22,9 @@
     "egg-ci": "^1.11.0",
     "egg-mock": "^3.21.0",
     "eslint": "^5.13.0",
-    "eslint-config-egg": "^7.1.0"
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-egg": "^7.1.0",
+    "eslint-plugin-prettier": "^3.1.3"
   },
   "engines": {
     "node": ">=8.0.0"
@@ -32,15 +34,13 @@
     "test-local": "egg-bin test",
     "cov": "egg-bin cov",
     "lint": "eslint .",
-    "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
+    "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov && bash <(curl -s https://codecov.io/bash) -t 0135d48d-0bf3-41e9-a61a-ae66d82ece6e",
     "pkgfiles": "egg-bin pkgfiles",
     "autod": "autod"
   },
   "files": [
-    "app.js",
-    "agent.js",
-    "config",
-    "app"
+    "app",
+    "config"
   ],
   "ci": {
     "version": "8, 10"
